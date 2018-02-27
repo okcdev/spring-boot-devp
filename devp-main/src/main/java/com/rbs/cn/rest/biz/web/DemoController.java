@@ -19,7 +19,11 @@ public class DemoController {
 
     @RequestMapping("/api/s2/v1")
     @Deprecated
-    public void call(@RequestParam String id, @RequestBody String postJson){
+    public void call(@RequestParam String id){
         demoService.call();
+        System.out.println("************************");
+        System.out.println("************************");
+        System.out.println("************************");
+        System.out.println("************************");
     }
 }

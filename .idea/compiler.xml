@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="devp-commons" />
         <module name="devp-main" />
         <module name="devp-utils" />
         <module name="spring-boot-rest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="devp-commons" target="1.8" />
       <module name="devp-main" target="1.8" />
       <module name="devp-rest" target="1.8" />
       <module name="devp-utils" target="1.8" />
