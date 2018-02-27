@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5b868d-f6ba-4a96-9a0e-ebb4a4b7f18f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/commons/dao/BasicDao.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/commons/entity/BasicEntity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/commons/service/BasicService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/tools/date/DateUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/tools/encrypt/EncryptionUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/tools/encrypt/PasswordUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/tools/json/JSONUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/tools/random/RandomUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/tools/string/StringUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/tools/uuid/UUIDUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/classes/com/rbs/cn/tools/valid/PatternValidUtils.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/devp-commons-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-main/target/classes/com/rbs/cn/rest/biz/service/DemoService.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-main/target/classes/com/rbs/cn/rest/biz/web/DemoController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_9_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/devp-commons.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/commons/dao/BasicDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/commons/entity/BasicEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/commons/service/BasicService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/date/DateUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/encrypt/EncryptionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/encrypt/PasswordUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/json/JSONUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/random/RandomUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/string/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/uuid/UUIDUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/valid/PatternValidUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/devp-commons/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/doc/05-deploy.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-main/target/devp-main-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/devp-main/target/devp-main-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-main/target/devp-main-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/devp-main/target/devp-main-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-utils/target/devp-utils-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/devp-utils/target/devp-utils-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java" afterPath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-main/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/devp-main/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-main/target/classes/application.properties" afterPath="$PROJECT_DIR$/devp-main/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-main/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/devp-main/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/devp-main/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/devp-main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/devp-utils/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/devp-utils/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,8 +35,8 @@
       <file leaf-file-name="DemoController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="258">
+              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -909,12 +855,20 @@
       <workItem from="1517061362678" duration="727000" />
       <workItem from="1517970114301" duration="875000" />
       <workItem from="1517989509840" duration="10000" />
-      <workItem from="1519693350639" duration="199000" />
+      <workItem from="1519693350639" duration="613000" />
     </task>
+    <task id="LOCAL-00001" summary="commit doc">
+      <created>1519693600749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1519693600749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15313000" />
+    <option name="totallyTimeSpent" value="15727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -956,6 +910,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit doc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1271,14 +1229,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devp-main/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1287,10 +1237,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="258">
+          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
           <folding />
         </state>
       </provider>
