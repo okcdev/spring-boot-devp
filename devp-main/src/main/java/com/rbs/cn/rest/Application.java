@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  */
 
 @SpringBootApplication
-@MapperScan(basePackages = {"com.rbs.cn.rest"})
+//@MapperScan(basePackages = {"com.rbs.cn.rest"})
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
