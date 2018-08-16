@@ -7,23 +7,26 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+
 /**
  * Created by admin on 2018/1/25.
  */
 @RestController
-@Deprecated
 public class DemoController {
 
     @Autowired
     DemoService demoService;
 
-    @RequestMapping("/api/s2/v1")
-    @Deprecated
-    public void call(@RequestParam String id){
-        demoService.call();
-        System.out.println("************************");
-        System.out.println("************************");
-        System.out.println("************************");
-        System.out.println("************************");
+    @RequestMapping("/produce")
+    public String produce(){
+        demoService.produce();
+        return "success";
+    }
+
+    @RequestMapping("/consumer")
+    public String consumer(){
+        demoService.consumer();
+        return "success";
     }
 }
