@@ -1,7 +1,10 @@
+com\rbs\cn\rest\biz\service\RedisService.class
+com\rbs\cn\rest\biz\entity\Result.class
+com\rbs\cn\rest\utils\redis\service\BasicRedisService.class
 com\rbs\cn\rest\biz\entity\ProductEntity.class
 com\rbs\cn\rest\biz\service\DemoService.class
 com\rbs\cn\rest\biz\web\DemoController.class
-com\rbs\cn\rest\biz\entity\Result.class
 com\rbs\cn\rest\biz\service\ModelService.class
 com\rbs\cn\rest\biz\entity\User.class
+com\rbs\cn\rest\utils\redis\config\RedisConfig.class
 com\rbs\cn\rest\Application.class

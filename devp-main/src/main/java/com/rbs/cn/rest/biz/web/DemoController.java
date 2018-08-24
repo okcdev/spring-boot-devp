@@ -9,7 +9,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.HashMap;
 import java.util.List;
 
 /**
@@ -52,5 +51,11 @@ public class DemoController {
     public Result<List> delUser(@PathVariable("name") String name){
         logger.debug("name:{}", name);
         return new Result<>(2000, "调用成功", modelService.delUser(name));
+    }
+
+    @RequestMapping("/putUser")
+    public Result<User> putUser(){
+        User user = new User("乔杉","男",34);
+        return new Result<>(2000, "调用成功", modelService.putUser(user));
     }
 }

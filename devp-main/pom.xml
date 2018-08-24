@@ -12,6 +12,12 @@
     <artifactId>devp-main</artifactId>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.rbs.cn</groupId>
+            <artifactId>devp-commons</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.rbs.cn</groupId>
             <artifactId>devp-utils</artifactId>
@@ -19,14 +25,9 @@
 
         <!-- for log -->
         <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-        </dependency>
-        <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
         </dependency>
-
 
         <!-- for spring-boot -->
         <dependency>
@@ -41,10 +42,20 @@
             <groupId>com.github.pagehelper</groupId>
             <artifactId>pagehelper-spring-boot-starter</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <optional>true</optional> <!-- 表示依赖不会传递 -->
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>io.lettuce</groupId>
+                    <artifactId>lettuce-core</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
         </dependency>
 
         <!-- database -->

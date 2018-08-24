@@ -9,6 +9,7 @@ package com.rbs.cn.rest.biz.service;
 import com.rbs.cn.rest.biz.entity.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -22,6 +23,9 @@ import java.util.List;
 @Service
 public class ModelService {
     static Logger logger = LoggerFactory.getLogger(ModelService.class);
+
+    @Autowired
+    RedisService redisService;
 
     public static List<User> USER_LIST = new ArrayList<>();
     static {
@@ -50,5 +54,17 @@ public class ModelService {
                 USER_LIST.remove(user);
         }
         return USER_LIST;
+    }
+
+    public User putUser(User user){
+        String cacheKey = user.getName();
+        User u = redisService.getValue(cacheKey);
+        if (u != null){
+            return u;
+        }
+
+        redisService.setValue(cacheKey, user);
+        //redisService.setMapValue("1",u.getName(),u);
+        return user;
     }
 }
