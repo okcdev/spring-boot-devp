@@ -6,6 +6,8 @@
 
 package com.rbs.cn.rest.biz.entity;
 
+import com.rbs.cn.commons.entity.BasicEntity;
+import com.rbs.cn.tools.json.JSONUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +21,14 @@ public class User {
     private String name;
     private String gender;
     private Integer age;
+
+    public User(String name) {
+        this.name = name;
+    }
+
+    public User(){
+
+    }
 
     public User(String name, String gender, Integer age) {
         this.name = name;
@@ -48,5 +58,10 @@ public class User {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return JSONUtils.toJson(this);
     }
 }

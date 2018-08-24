@@ -55,7 +55,7 @@ public class DemoController {
 
     @RequestMapping("/putUser")
     public Result<User> putUser(){
-        User user = new User("乔杉","男",34);
+        User user = new User("001","男",34);
         return new Result<>(2000, "调用成功", modelService.putUser(user));
     }
 }

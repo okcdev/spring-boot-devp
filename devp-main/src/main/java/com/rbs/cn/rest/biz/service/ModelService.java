@@ -59,6 +59,7 @@ public class ModelService {
     public User putUser(User user){
         String cacheKey = user.getName();
         User u = redisService.getValue(cacheKey);
+        logger.debug("u:{}", u);
         if (u != null){
             return u;
         }
