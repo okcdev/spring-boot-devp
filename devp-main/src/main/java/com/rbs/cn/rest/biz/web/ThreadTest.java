@@ -24,16 +24,13 @@ public class ThreadTest {
         T1.start();
         T2.start();
         T3.start();
+        */
 
         //测试Runnable
         MyThread1 t1 = new MyThread1();
         new Thread(t1).start();//同一个t1，如果在Thread中就不行，会报错
         new Thread(t1).start();
-        new Thread(t1).start();*/
-
-        HashMap hashMap = new HashMap();
-        hashMap.put("a","ssss");
-        logger.debug("hashMap.entrySet():{}", hashMap.entrySet());
+        new Thread(t1).start();
 
     }
 
