@@ -25,8 +25,9 @@ public class KafkaProducer {
     @Autowired
     private KafkaTemplate kafkaTemplate;
 
-    public void send(String topic, String key, User data){
-        ListenableFuture future = kafkaTemplate.send(topic, key, data);
+    public User send(String topic, String key, User data){
+        ListenableFuture future = kafkaTemplate.send(topic, key, data.toString());
         future.addCallback(o -> System.out.println("send-消息发送成功：" + data), throwable -> System.out.println("消息发送失败：" + data));
+        return data;
     }
 }

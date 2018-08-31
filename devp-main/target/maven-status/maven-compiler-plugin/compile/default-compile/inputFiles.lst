@@ -1,5 +1,10 @@
-D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\biz\web\DemoController.java
+D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\utils\kafka\KafkaConsumer.java
 D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\biz\entity\Result.java
+D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\utils\kafka\KafkaProducer.java
+D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\utils\redis\config\RedisConfig.java
+D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\utils\redis\service\BasicRedisService.java
+D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\biz\web\DemoController.java
+D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\biz\service\RedisService.java
 D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\biz\entity\User.java
 D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\Application.java
 D:\APPS_WORK\j2ee\spring-boot-devp\devp-main\src\main\java\com\rbs\cn\rest\biz\service\DemoService.java

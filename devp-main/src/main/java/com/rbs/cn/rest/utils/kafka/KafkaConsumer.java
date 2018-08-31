@@ -24,7 +24,7 @@ public class KafkaConsumer {
      * 监听test主题,有消息就读取
      * @param message
      */
-    @KafkaListener(topics = {"test"})
+    @KafkaListener(topics = {"topic-test"})
     public void consumer(User message){
         logger.info("test topic message : {}", message);
     }

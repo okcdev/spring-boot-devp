@@ -4,6 +4,7 @@ import com.rbs.cn.rest.biz.entity.Result;
 import com.rbs.cn.rest.biz.entity.User;
 import com.rbs.cn.rest.biz.service.DemoService;
 import com.rbs.cn.rest.biz.service.ModelService;
+import com.rbs.cn.rest.utils.kafka.KafkaProducer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +24,9 @@ public class DemoController {
 
     @Autowired
     ModelService modelService;
+
+    @Autowired
+    KafkaProducer kafkaProducer;
 
     @RequestMapping("/produce")
     public String produce(){
@@ -57,5 +61,11 @@ public class DemoController {
     public Result<User> putUser(){
         User user = new User("001","男",34);
         return new Result<>(2000, "调用成功", modelService.putUser(user));
+    }
+
+    @RequestMapping("/kafka")
+    public Result<User> kafka(){
+        User user = new User("001","男",34);
+        return new Result<>(2000, "调用成功", kafkaProducer.send("topic-test","hello_kafka", user));
     }
 }

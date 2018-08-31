@@ -3,10 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="fd5b868d-f6ba-4a96-9a0e-ebb4a4b7f18f" name="Default" comment="commit doc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devp-main/devp-main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/devp-main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devp-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/ThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/ThreadTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-commons/target/devp-commons-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/devp-commons/target/devp-commons-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaProducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/devp-main/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-main/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-main/target/classes/com/rbs/cn/rest/biz/web/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/target/classes/com/rbs/cn/rest/biz/web/DemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-main/target/devp-main-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/target/devp-main-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-main/target/devp-main-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/target/devp-main-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devp-main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/devp-main/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,29 +31,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devp-main/pom.xml">
+      <file leaf-file-name="KafkaProducerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/config/KafkaProducerConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
+            <state relative-caret-position="511">
+              <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaProducer.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaProducer.java">
+      <file leaf-file-name="KafkaSendUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/sender/KafkaSendUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DemoService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/DemoService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="207">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,33 +52,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModelService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/ModelService.java">
+      <file leaf-file-name="KafkaProducerListener.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/listener/KafkaProducerListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-460">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="475">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ThreadTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/ThreadTest.java">
+      <file leaf-file-name="KafkaMessageHandlerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/handle/impl/KafkaMessageHandlerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-              <folding>
-                <element signature="e#882#883#0" expanded="true" />
-                <element signature="e#914#915#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="323">
+              <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KafkaConsumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaConsumer.java">
+      <file leaf-file-name="KafkaMessageListener.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/listener/KafkaMessageListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="418">
+              <caret line="37" column="31" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaConsumerConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/config/KafkaConsumerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-610">
+              <caret line="45" column="51" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -91,6 +93,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -134,15 +137,23 @@
         <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/redis/service/BasicRedisService.java" />
         <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/DemoRedisService.java" />
         <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/RedisService.java" />
-        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/ModelService.java" />
-        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java" />
         <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/entity/User.java" />
         <option value="$PROJECT_DIR$/devp-main/pom.xml" />
         <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/service/BasicKafkaService.java" />
-        <option value="$PROJECT_DIR$/devp-main/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaConsumer.java" />
-        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaProducer.java" />
         <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaConsumer.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaProducer.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/listener/KafkaProducerListener.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/SpringContextUtil.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/sender/KafkaSendUtil.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/handle/KafkaMessageHandle.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/listener/KafkaMessageListener.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/handle/impl/KafkaMessageHandlerImpl.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/config/KafkaProducerConfig.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/ModelService.java" />
+        <option value="$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/config/KafkaConsumerConfig.java" />
       </list>
     </option>
   </component>
@@ -222,8 +233,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,38 +284,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-devp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-devp" type="462c0819:PsiDirectoryNode" />
-              <item name="devp-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-devp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-devp" type="462c0819:PsiDirectoryNode" />
-              <item name="devp-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="biz" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-devp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-devp" type="462c0819:PsiDirectoryNode" />
-              <item name="devp-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,18 +306,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-devp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-devp" type="462c0819:PsiDirectoryNode" />
-              <item name="devp-main" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rest" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -351,8 +318,45 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rest" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-devp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-devp" type="462c0819:PsiDirectoryNode" />
+              <item name="devp-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="handle" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-devp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-devp" type="462c0819:PsiDirectoryNode" />
+              <item name="devp-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="listener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-boot-devp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-devp" type="462c0819:PsiDirectoryNode" />
+              <item name="devp-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rest" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="sender" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-boot-devp" type="b2602c69:ProjectViewProjectNode" />
@@ -366,25 +370,26 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/devp-main" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rbs.cn.rest.utils" />
       <recent name="com.rbs.cn.rest.utils.redis.config" />
       <recent name="com.rbs.cn.rest.biz.entity" />
       <recent name="com.rbs.cn.log.repository" />
       <recent name="com.rbs.cn.tools.addr" />
-      <recent name="com.rbs.cn.commons.dao" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\APPS_WORK\j2ee\spring-boot-devp\devp-utils\src\main\java\com\rbs\cn\log" />
@@ -661,7 +666,10 @@
       <workItem from="1534405818879" duration="4260000" />
       <workItem from="1535093367924" duration="7936000" />
       <workItem from="1535118592830" duration="4293000" />
-      <workItem from="1535360118007" duration="1051000" />
+      <workItem from="1535360118007" duration="1232000" />
+      <workItem from="1535443039546" duration="7555000" />
+      <workItem from="1535462767922" duration="973000" />
+      <workItem from="1535686469365" duration="3747000" />
     </task>
     <task id="LOCAL-00001" summary="commit doc">
       <created>1519693600749</created>
@@ -681,13 +689,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46011000" />
+    <option name="totallyTimeSpent" value="58467000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.1359275" side_tool="true" weight="0.33260632" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32995737" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
@@ -698,16 +707,15 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.3293348" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3293348" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.33333334" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.8640725" weight="0.33260632" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27985075" />
       <window_info anchor="right" id="Bean Validation" order="7" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -716,10 +724,11 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="6" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="Properties" order="9" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3293348" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -737,58 +746,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/template/LineTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/template/Template.java" />
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/file/TextFileUtils.java" />
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/date/DateUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/random/RandomUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devp-commons/devp-commons.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/string/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/encrypt/EncryptionUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/uuid/UUIDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doc/05-deploy.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1296">
-            <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/alibaba/druid/1.1.5/druid-1.1.5.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2115" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devp-utils/src/main/java/com/rbs/cn/redis/RedisConfig.java" />
     <entry file="file://$PROJECT_DIR$/devp-utils/src/main/java/com/rbs/cn/redis/RedisListener.java" />
     <entry file="file://$PROJECT_DIR$/devp-utils/src/main/java/com/rbs/cn/log/repository/ElasticLogRepository.java" />
@@ -880,13 +837,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/json/JSONUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/redis/config/RedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -898,16 +848,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -926,25 +866,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/RedisService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/service/BasicKafkaService.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.7.RELEASE/spring-boot-autoconfigure-1.5.7.RELEASE.jar!/org/springframework/boot/autoconfigure/kafka/KafkaProperties.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/devp-main/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -955,45 +881,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/DemoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="34" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/ModelService.java">
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/DemoController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-460">
-          <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+        <state relative-caret-position="394">
+          <caret line="68" column="58" lean-forward="true" selection-start-line="68" selection-start-column="58" selection-end-line="68" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/web/ThreadTest.java">
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
-          <folding>
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#914#915#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="475">
+          <caret line="46" column="43" lean-forward="true" selection-start-line="46" selection-start-column="43" selection-end-line="46" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.8.10/jackson-databind-2.8.10.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="1188" column="18" selection-start-line="1188" selection-start-column="18" selection-end-line="1188" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-commons/src/main/java/com/rbs/cn/tools/json/JSONUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/1.1.6.RELEASE/spring-kafka-1.1.6.RELEASE.jar!/org/springframework/kafka/listener/config/ContainerProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/ModelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="66" column="46" lean-forward="true" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/biz/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1.jar!/org/apache/kafka/clients/consumer/ConsumerConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="33" column="76" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/KafkaProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="285">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/SpringContextUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/handle/KafkaMessageHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/config/KafkaConsumerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-610">
+          <caret line="45" column="51" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/config/KafkaProducerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/handle/impl/KafkaMessageHandlerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/listener/KafkaMessageListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/sender/KafkaSendUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/devp-main/src/main/java/com/rbs/cn/rest/utils/kafka/listener/KafkaProducerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
